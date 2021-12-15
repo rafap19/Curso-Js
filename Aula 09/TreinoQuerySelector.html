@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos Com Dom</title>
+</head>
+<style>
+    body{
+        background-color: rgb(188, 188, 253);
+        color: white;
+        font: 18pt arial black;
+    }
+</style>
+<body>
+        <h1>Iniciando Estudos Com Dom</h1>
+        <p>Aqui vai o resultado, </p>
+        <p>Aprendedo a usar o <strong>DOM</strong> em Javascript,</p>
+        <p>Deus é bom</p>
+        <div id = 'd'>Clique em Mim</div>
+        <div class = 'dd'>Olá,meus amigos.</div>
+        <div>Hello my friends</div>
+        <div name = 'n'>hey guys</div>
+        <div id = 'idea'>Jesus é o meu salvador</div>
+       
+
+        <script>
+                    var seletor_tagname = window.document.querySelectorAll('p')[2] //query selector por tag
+                                            window.document.write(seletor_tagname.innerText) 
+
+                    var seletor_id =        window.document.querySelector('idea') //query selector por id
+                                                window.document.write(seletor_id.innerText)
+                                               
+                     
+
+                     var seletor_classe = window.document.querySelector('div.dd') // query selector por classe(.)
+                                            window.document.write(seletor_classe.innerText) 
+
+                     var seletor_div =  window.document.querySelectorAll('div#') //query selector por div
+                                            window.document.write(seletor_div.innerText)
+
+                     var seletor_nome = window.document.querySelector('n')
+                                        window.document.write(seletor_nome.innerText)   
+
+
+                    
+
+
+                   
+                     
+        </script>
+    
+</body>
+</html>

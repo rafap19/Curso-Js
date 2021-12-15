@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos Com Dom</title>
+</head>
+<style>
+    body{
+        background-color: rgb(188, 188, 253);
+        color: white;
+        font: 18pt arial black;
+    }
+</style>
+<body>
+        <h1>Iniciando Estudos Com Dom</h1>
+        <p>Aqui vai o resultado, </p>
+        <p>Aprendedo a usar o <strong>DOM</strong> em Javascript,</p>
+        <div id = 'd'>Clique em Mim</div>
+        <div class = 'dd'>Olá,meus amigos.</div>
+        <div>Hello my friends</div>
+        <div name = 'did'>oi irmão</div>
+        
+
+        <script>
+            var tag1 = window.document.getElementsByTagName('p')[0] // para selicionar por tag
+                     window.document.write(tag1.innerText)
+                     
+
+            var id = window.document.getElementById('d') // para selecionar por id
+                      id.style.background = 'green'
+                      id.innerText = 'olá,tudo bem? '
+
+                     var tag2 = window.document.getElementsByTagName('p')[1]
+                     window.document.write(tag2.innerHTML) // o valor formatado só aparece se utilizarmos a inner html
+
+                     var seletor_classe = window.document.getElementsByClassName('div.dd') //para selecionar por classe(.)
+                     window.document.write(seletor_classe.innerText) 
+
+                     var seletor_div =  window.document.querySelector('#div') 
+
+                     var selector_name = window.document.getElementsByName('did') // para selecionar por nome
+                     window.document.write(selector_name.innerText)
+                    
+
+
+                   
+                     
+        </script>
+    
+</body>
+</html>

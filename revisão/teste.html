@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventosDOM</title>
+    <style>
+        div.area {
+            font: normal 15pt Arial;
+            background:rgb(87, 141, 141);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+
+    
+    </style>
+</head>
+<body>
+   <div class = 'area'onclick = 'clicar()' onmouseenter='entrar()' onmouseout= 'sair()'>
+       Interaja...
+   </div>
+
+    <script>
+        function clicar() {
+         let click = window.document.querySelector('.area') 
+
+                    area.innerText = 'Clicou' 
+        
+        }
+            function entrar() {
+               let enter = window.document.querySelector('.area')
+                    enter.innerText = 'Entrou' 
+            } 
+                        
+            function sair(){
+                let out = window.document.querySelector('.area')
+                    out.innerText = 'Saiu'
+            }
+
+
+    </script>
+</body>
+</html>
