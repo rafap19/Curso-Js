@@ -1,12 +1,15 @@
-let nome_completo = document.querySelector('text#txtnome')
-let nome_pai = document.querySelector('text#txtpai')
-let nome_mãe = document.querySelector('text#txtmãe')
-let ano_nascimento = document.querySelector('date#txtano')
-let botão = document.querySelector('submit#txtnome')
+let nome_completo = document.querySelector('input#txtnome')
+let nome_pai = document.querySelector('input#txtpai')
+let nome_mãe = document.querySelector('input#txtmãe')
+let ano_nascimento = document.querySelector('input#txtano')
+let botão = document.querySelector('input#Enviar')
+let radio_sim = document.querySelector('input#SIM')
+let radio_não = document.querySelector('input#NÃO')
+let res = document.querySelector('div#res')
 botão.addEventListener('click',enviar)
 
 function enviar(){
-    
+    res.innerHTML = `<h1>Seus dados forem coletados com sucesso!</h1>`
 }
 
 
