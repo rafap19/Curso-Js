@@ -1,5 +1,5 @@
 let idade = 18
-console.log('SISTEMA DE IDENTIDADE')
+console.log('SISTEMA DE VOTAÇÃO')
     if(idade < 16){
         console.log('Não vota')
     }else if(idade == 16 || idade == 17){
