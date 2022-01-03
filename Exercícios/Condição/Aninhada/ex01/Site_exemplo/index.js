@@ -1,14 +1,15 @@
-let idade = 18
-console.log('SISTEMA DE IDENTIDADE')
-    if(idade < 16){
-        console.log('Não vota')
-    }else if(idade == 16 || idade == 17){
-        console.log('Voto não obrigatório')
-    }else if(idade >= 18 && idade < 65){
-        console.log('Voto Obrigatório')
-    }else if(idade >=65 && idade <= 75){
-        console.log('Voto não obrigatório')
-    }else{
-        console.log('Inapto para votar')
-    }
+let nome_completo = document.querySelector('text#txtnome')
+let nome_pai = document.querySelector('text#txtpai')
+let nome_mãe = document.querySelector('text#txtmãe')
+let ano_nascimento = document.querySelector('date#txtano')
+let botão = document.querySelector('submit#txtnome')
+botão.addEventListener('click',enviar)
+
+function enviar(){
+    
+}
+
+
+
+    
      
