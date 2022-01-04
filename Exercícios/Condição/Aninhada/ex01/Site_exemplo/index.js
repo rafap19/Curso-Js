@@ -9,7 +9,7 @@ let res = document.querySelector('div#res')
 botão.addEventListener('click',enviar)
 
 function enviar(){
-    res.innerHTML = `<h1>Seus dados forem coletados com sucesso!</h1>`
+    res.innerHTML = `<h1 id = res_style>Seus dados forem coletados com sucesso!</h1>`
 }
 
 
