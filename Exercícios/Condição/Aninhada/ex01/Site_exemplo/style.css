@@ -19,14 +19,17 @@
 header{
 min-height: 60px;
 max-height: 150px;
+margin-bottom: 10px;
 }
 
 header > h1 {
     text-align: center;
-    background-color:var(--cor1);
+    background-color:var(--cor3);
     color: var(--cor0);
-}
+    min-height: 60px;
+    max-height: 150px
 
+}
 main{
 background-color: rgb(177, 174, 174);
 min-width: 300px;
@@ -35,19 +38,24 @@ display: block;
 margin: auto;
 padding: 15px;
 border-radius: 15px;
-
-}
-
-body{
+box-shadow: 0px 0px 3px rgb(0, 0, 0);
 
 }
 footer{
-    background-color: var(--cor1);
-    padding: 100px;
+    background-color: var(--cor3);
+    padding: 10px;
     margin-top: 10px;
     text-align: center;
     color: rgb(207, 203, 203);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.137);
-    
-    
+    font-weight: bold
+}
+
+footer > a{
+    text-decoration: none;
+    color: rgba(202, 200, 200, 0.719);
+    font-weight: bold;
+}
+
+footer > a:hover{
+    color: rgb(92, 92, 92);
 }
