@@ -1,4 +1,0 @@
-let velocidade_moto = 30
-    while(velocidade_moto <= 30){
-        console.log('a velocidade está muito baixa,acelere')
-    }
