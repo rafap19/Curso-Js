@@ -1,3 +1,10 @@
-for(let corda = 1;corda < 6;corda = corda + 1){
-    console.log('Ainda faltam cordas na guitarra!')
+var condicao = true;
+var contador = 1;
+
+for(; condicao;) {
+    if(contador % 5 === 0){
+        condicao = false;
+    }
+    console.log(`condição boolenaa simples: ${contador}`);
+    ++contador;
 }
