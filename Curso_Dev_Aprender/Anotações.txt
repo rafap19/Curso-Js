@@ -1,0 +1,50 @@
+Diferença entre os tipos de variáveis:
+
+Utilizamos o "let" quando entendemos que o valor da variável possa mudar em algum determinado momento. Isso significa que
+se eu crio uma variavel let no valor de 20 e emnbaixo crio outra com um valor de 30 e imprimo isso o trinta toma o lugar
+do 20 anterior,isso porque o let permite reatribuição.
+No caso do "const", como o próprio nome diz ela é uma variável em que o valor continua o mesmo,logo não permite reatribuição.
+
+tipagem dinâmica: significa que o js descobre os tipos das variáveis em tempo real,para fazer um teste basta declarar
+uma variavel e depois no console escrever typeof + nome da variavel.
+
+Tipos de valores em js: string,number,boolean
+Tipos de referência: object,array,function
+
+
+um objeto serve para juntar varias informações dentro um lugar só,para isto basta criar uma variavel e {} , 
+se eu quero colocar as minhas variaveis dentro desse objeto basta eu inserir os nomes das anteriores e separar 
+por vírgula que elas herdam os valores,caso eu queira alterar eu coloco o nome da variavel que eu quero alterar(que nesse caso será chamada
+de chave)  e separo por :, dentro deles eu coloco o valor que eu quero.
+
+
+obs: keyvalue pair = esse par que esta dentro da classe do objeto, ou seja a key e o value
+
+
+
+
+Arrays: são um conjunto de dados que pode ser acessado por suas posições
+
+
+Functions: são blocos onde terão certas funções, essas funções são ativadas quando determinados eventos ocorrem
+
+sintaxe para criar funções: function + Verbo + substantivo, ou seja o nome dela e oque ela faz,ex: resetaCor,ampliaImagem e etc,apos isso inserimos um abre e fecha parênteses
+seguido de um abre e fecha chaves e fechamos com um ;, tudo que estiver dentro desse bloco de chaves faz parte da função
+
+ex de function
+
+	function resetaCor() {
+	
+
+}
+;
+
+
+obs: nós podemos ainda chamar essa função a qualquer momento basta escrever o nome dela seguida dos parenteses
+
+
+o operador ternário serve para sempre que possível fugirmos dos ifs, para utilizar basta usar o ?
+
+
+
+
