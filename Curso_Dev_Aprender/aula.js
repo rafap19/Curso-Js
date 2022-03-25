@@ -15,7 +15,7 @@ console.log(aluno);
 
 let lista = ['banana','chocolate','uva'];
 
-console.log('hoje eu quero comer',lista[2])
+console.log(`hoje eu quero comer ${lista[1]}`)
 
 /*Array de lista de coisas que quero comer, de acordo com a ocasião vou querer comer outra coisa */
 
@@ -43,6 +43,28 @@ function reseta_Cor(cor) {
 console.log(cor_Site);
 reseta_Cor('Verde');
 console.log(cor_Site);
+
+
+
+
+/*Exemplo de aplicação de Truthy e Falsy*/
+
+let corPersonalizada = 'roxo';
+let corPadrao = 'Azul';
+let corMesclada = corPersonalizada || corPadrao;
+
+console.log(corMesclada);
+
+/*o resultado foi roxo justamente porque ele considera o primeiro que for verdadeiro, se o primeiro ja foi ele ja aceita o primeiro */
+
+
+let corPersonalizada1 = '';
+let corPadrao1 = 'Azul';
+let corMesclada1 = corPersonalizada1 || corPadrao1;
+
+console.log(corMesclada1);
+
+/*ja neste caso o resultado foi azul,isso porque o valor da primeira variável foi um valor falsy*/
 
 
 

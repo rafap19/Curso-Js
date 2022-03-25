@@ -1,7 +1,7 @@
 Diferença entre os tipos de variáveis:
 
 Utilizamos o "let" quando entendemos que o valor da variável possa mudar em algum determinado momento. Isso significa que
-se eu crio uma variavel let no valor de 20 e emnbaixo crio outra com um valor de 30 e imprimo isso o trinta toma o lugar
+se eu crio uma variavel let no valor de 20 e logo após crio outra com um valor de 30 e imprimo isso o trinta toma o lugar
 do 20 anterior,isso porque o let permite reatribuição.
 No caso do "const", como o próprio nome diz ela é uma variável em que o valor continua o mesmo,logo não permite reatribuição.
 
@@ -43,7 +43,37 @@ ex de function
 obs: nós podemos ainda chamar essa função a qualquer momento basta escrever o nome dela seguida dos parenteses
 
 
-o operador ternário serve para sempre que possível fugirmos dos ifs, para utilizar basta usar o ?
+o operador ternário serve para sempre que possível fugirmos dos ifs, para utilizar basta usar o ? e o :
+
+
+comparações lógicas com valores que não são lógicos:
+
+Nem sempre um resultado de uma comparação lógica será 'true' e 'false',isso porque temos os conceitos de falsy e truthy
+
+
+
+Falsy - Quando o resultado de uma expressão lógica for:
+
+undefined
+
+null
+
+0
+
+false
+
+''
+
+NaN - not a number
+
+
+Truthy - Quando um valor entre essas expressões não for falsy ele será um truthy
+
+ex: false || 'Rafael' = 'Rafael'
+
+isso porque o ou precisa que pelo menos um dos valores seja truthy para aceitá-lo
+
+
 
 
 
