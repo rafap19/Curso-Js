@@ -74,6 +74,9 @@ ex: false || 'Rafael' = 'Rafael'
 isso porque o ou precisa que pelo menos um dos valores seja truthy para aceitá-lo
 
 
+loop for in: funciona melhor para iterar sobre propriedas de um objeto ou de elementos de um array
+
+
 
 
 
