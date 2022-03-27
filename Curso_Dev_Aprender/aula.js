@@ -67,4 +67,39 @@ console.log(corMesclada1);
 /*ja neste caso o resultado foi azul,isso porque o valor da primeira variável foi um valor falsy*/
 
 
+let hora = 22
+    if(hora >= 6 && hora < 12) {
+        console.log('Bom Dia');
+
+    }else if(hora >= 12 && hora < 18) {
+        console.log('Boa Tarde');
+
+    }else if (hora >= 18 && hora <= 23.59) {
+        console.log('Boa Noite');
+
+    }else {
+        console.log('Boa Madrugada');
+    }
+
+    
+    /*exemplo de condição*/
+
+
+    let permissao = 'comum';
+
+    switch(permissao) {
+            case 'comum': console.log('usuario comum')
+                break;
+
+            case 'gerente': console.log('usuario gerente')
+                break;
+
+            case 'diretor': console.log('usuario diretor')
+                break;    
+
+            default: console.log('valor não encontrado')    
+    }
+
+    /*exemplo de switch */
+
 
