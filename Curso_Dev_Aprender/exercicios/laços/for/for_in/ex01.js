@@ -4,7 +4,7 @@ const pessoa = {
 };
 
 for(let chave in pessoa) {
-    console.log(chave,pessoa.nome);
+    console.log(pessoa);
 }
 
 /*Criamos um for aonde primeiro a variavel puxa somente as chaves, colocamos o in e referenciamos  o nome da variável aonde está situado o objeto. Para puxar os valores,após a vírgula inserímos o nome da variavel do objeto. e o nome da chave de onde queremos tirar o valor*/
