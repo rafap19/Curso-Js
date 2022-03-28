@@ -19,16 +19,14 @@ let blue = document.querySelector('div#blue')
 let finalResult = document.querySelector('input#bt')
 finalResult.addEventListener('click',invertBlockAndContent)
 
-function invertBlockAndContent() {
+function invertContent() {
+
 
     if (red.textContent === 'Red')  {
         red.innerHTML = `Blue`
     }else {
         red.innerHTML = `Red`
     }
-
-   
-
 
 
 
