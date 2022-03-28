@@ -8,3 +8,8 @@ for(let cor of cores) {
 }
 
 /*ele imprime l porque a 5 posição é justamento o l,visto que começamos pela posição 0(V) */
+
+const numbers = (['Red,Brown,Black'])
+    for(let position of numbers) {
+        console.log(position[3]);
+    }
