@@ -19,25 +19,20 @@ let blue = document.querySelector('div#blue')
 let finalResult = document.querySelector('input#bt')
 finalResult.addEventListener('click',invertBlockAndContent)
 
-function invertContent() {
+function invertBlockAndContent() {
 
-
-    if (red.textContent === 'Red')  {
+    if (red.textContent === 'Red' && blue.textContent === 'Blue')  {
         red.innerHTML = `Blue`
-    }else {
-        red.innerHTML = `Red`
-    }
-
-
-
-    if (blue.textContent === 'Blue') {
+        red = document.querySelector('div#red').style.background = 'blue'
         blue.innerHTML = `Red`
+        blue = document.querySelector('div#blue').style.background = 'red'
+
     }else {
-        blue.innerHTML = `Blue`
+        red.innerHTML = `Blue`
+        red = document.querySelector('div#red').style.background = 'Blue'
+        blue.innerHTML = `Red`
+        blue = document.querySelector('div#blue').style.background = 'Red'
     }
-
-
-   
 
     
 }
