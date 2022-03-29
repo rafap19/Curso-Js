@@ -4,21 +4,22 @@
 /*forma simples(para imprimir aqui no js) 
 
 
-let n1 = 100
-let n2 = 20
+let valorMaior = returnBiggerValue(5,15)
 
-function returnBiggerValue() {
+function returnBiggerValue(n1,n2) {
     if(n1 > n2) {
-        console.log(`O maior valor será igual á: ${n1}`)
+        return(n1)
 
     }else if(n1 < n2) {
-        console.log(`O maior valor será igual á: ${n2}`)
+        return(n2)
 
-    }else{
+    }else
         console.log('Os valores são iguais')
-    }
+    
 }
-*/
+console.log(valorMaior)
+/*
+
 
 
 
@@ -32,10 +33,10 @@ bt.addEventListener('click',returnBiggerValue)
 function returnBiggerValue() {
 
     if(n1.value > n2.value) {
-       alert(`O valor maior é igual a: ${n1.value}`)
+       alert(n1.value)
 
     }else if(n1.value < n2.value){
-        alert(`O valor maior é igual a: ${n2.value}`)
+        alert(n2.value)
 
     }else{
         alert('os valores são iguais!')
