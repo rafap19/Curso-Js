@@ -76,6 +76,8 @@ isso porque o ou precisa que pelo menos um dos valores seja truthy para aceitá-
 
 loop for in: funciona melhor para iterar sobre propriedas de um objeto ou de elementos de um array
 
+arrow functions = utilizadas sempre em expressões,ou seja funções anônimas que não possuem nome que estão ligadas a variáveis
+
 
 
 

@@ -32,18 +32,10 @@ bt.addEventListener('click',returnBiggerValue)
 
 function returnBiggerValue() {
 
-    if(n1.value > n2.value) {
-       alert(n1.value)
-
-    }else if(n1.value < n2.value){
-        alert(n2.value)
-
-    }else{
-        alert('os valores são iguais!')
-    }
+    n1.value > n2.value ? alert(n1.value) : alert(n2.value);
 }
 
-/*Questionamento: porque quando eu insiro um valor acima de 3 unidade por exemplo 100 o valor é considerado como menor e não maior?Vale ressaltar que não funciona com valores como 100 e 222,mas testando 524 ele funciona,vale ainda ressaltar que no console ele considera o 100 como maior */
+/*Questionamento: porque quando eu insiro um valor acima de 3 unidade por exemplo 100 o valor é considerado como menor e não maior?Vale ressaltar que não funciona com valores como 100 e 222,mas testando 524 ele funciona,vale ainda ressaltar que no console ele considera o 100 como maior(obs: as vezes ele buga,alguns números simplesmente não são reconhecidos como maiores e sim menores) */
 
 
 
