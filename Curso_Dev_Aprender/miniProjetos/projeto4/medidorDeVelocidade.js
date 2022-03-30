@@ -4,11 +4,15 @@ bt.addEventListener('click',medidorVel)
 
 function medidorVel() {
 
+    const velMax = 70
+    const kmPorPonto = 5
+    const pontos = Math.floor((vel.value - velMax)/kmPorPonto)
+
     if (vel.value * vel.value === 0) 
 
         return alert('Digite um Número!')
     
-    else if (vel.value <= 70)
+    else if (vel.value <= velMax)
 
         return alert('Está tudo ok,dirija com cuidado!')
 
@@ -17,8 +21,6 @@ function medidorVel() {
         return alert ('Você está acima do limite,abaixe a velocidade ou levará pontos na carteira!')
 
     else {
-
-        const pontos = Math.floor((vel.value - 70)/5)
 
     if (pontos >= 12)
 
