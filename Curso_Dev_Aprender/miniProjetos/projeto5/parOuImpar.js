@@ -1,29 +1,19 @@
-let num = document.querySelector('input#num')
-let bt = document.querySelector('input#bt')
-bt.addEventListener('click',parOuImpar)
 
-function parOuImpar() {
+function exibirTipo(limite) {
 
-    num.value % 2 === 0 ? alert('Esse número é par!') : alert('Esse número é ímpar!');
-    
+    for(let i = 0; i <= limite; i++){
 
+        if (i % 2 === 0 )
+            console.log(`${i}: Par`)
+        else
+
+        console.log(`${i}: Ímpar`)
+    }
 }
 
+exibirTipo(10);
 
 
 
 
-
-
-/*
-let parOuImpar = (num) => {
-
-    if(num % 2 === 0)
-        return('Esse número é par!')
-    
-    else
-        return('Esse número é impar!')
-}
-
-console.log(parOuImpar(47))*/
 
