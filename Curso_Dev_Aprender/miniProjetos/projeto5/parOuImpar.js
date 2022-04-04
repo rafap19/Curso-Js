@@ -1,19 +1,22 @@
+/*let mostraValorImpar = () => {
 
-function exibirTipo(limite) {
+    for(let num = 0; num <= 20; num++)
 
-    for(let i = 0; i <= limite; i++){
-
-        if (i % 2 === 0 )
-            console.log(`${i}: Par`)
-        else
-
-        console.log(`${i}: Ímpar`)
-    }
+        if(num % 2 != 0)
+            console.log(`${num} - Ímpar`)
+        else console.log(`${num} - Par`)
 }
 
-exibirTipo(10);
+mostraValorImpar() */
 
 
+let num = document.querySelector('input#num')
+let bt = document.querySelector('input#bt')
+bt.addEventListener('click',mostraValorImpar)
 
+function mostraValorImpar() {
 
-
+    if (num.value % 2 != 0)
+        alert(`${num.value} - Ímpar`)
+    else  alert(`${num.value} - Par`)
+}
