@@ -1,0 +1,20 @@
+
+function value(numero){
+
+    for(let i = 0; i <= 10;i++){
+        console.log('oi')
+    }
+
+    for(i = 11; i > 10;i++){
+        console.log('Valor Incorreto')
+    }
+
+}
+
+value(10)
+    
+
+
+
+
+
