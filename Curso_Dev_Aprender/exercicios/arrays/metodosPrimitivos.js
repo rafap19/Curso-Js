@@ -1,6 +1,8 @@
 
 /*
     métodos de um array de valores primitivos(string,number,boolean)
+
+
 unshift - adiciona o elemento no início do array
 
   splice - adiciona o elemento no meio do array, esse possui 3 propriedades:
@@ -41,6 +43,9 @@ const arr = ['KitKat','Kinder Ovo','Sorvete']
     console.log(arr.indexOf('Lindt'))
 
     console.log(arr.includes('Alpino'))
+
+
+    
 
 
         
