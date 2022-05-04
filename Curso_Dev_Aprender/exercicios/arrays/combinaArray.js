@@ -10,4 +10,7 @@ const clone = [...arr] // Clonando arrays utilizando spread
     console.log(clone)
 
 
+
+
+
     
