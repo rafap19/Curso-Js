@@ -25,6 +25,14 @@ lastindexOf - faz a mesma coisa, mas ele busca a ultima vez que esse elemento oc
 
 includes - Nos mostra  através de um valor booleano se existe tal valor dentro de um array ou não
 
+pop - ele armazena o último valor do array dentro de uma variável,se você dar um console.log verá que o último elemento desse array anterior terá sido removido
+
+shift - faz a mesma coisa que o pop,mas se refere a primeira posição
+
+splice - remove a posição,podemos escolher qual posição ele quer apagar
+
+
+
 */
 
 
@@ -34,15 +42,54 @@ const arr = ['KitKat','Kinder Ovo','Sorvete']
     arr.unshift('Alpino')
         console.log(arr)
 
+
+
     arr.splice(1,0,'Kinder Bueno')
         console.log(arr)
+
+
 
     arr.push('Lindt')
         console.log(arr)
 
-    console.log(arr.indexOf('Lindt'))
 
-    console.log(arr.includes('Alpino'))
+
+        console.log(arr.indexOf('Lindt'))
+
+
+
+        console.log(arr.includes('Alpino'))
+
+
+
+   const posFinal = arr.pop()
+    console.log(posFinal)
+    console.log(arr)
+
+
+
+    const posInicial = arr.shift()
+        console.log(posInicial)
+        console.log(arr)
+
+
+
+    const posMeio = arr.splice(2,1)
+        console.log(posMeio)
+        console.log(arr)
+
+
+    /*Deixando o Array Vazio */
+
+        arr.length = 0
+            console.log(arr)
+
+
+
+    
+
+    
+    
 
 
     
