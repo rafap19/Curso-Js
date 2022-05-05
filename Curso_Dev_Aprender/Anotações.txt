@@ -79,6 +79,9 @@ loop for in: funciona melhor para iterar sobre propriedas de um objeto ou de ele
 arrow functions = utilizadas sempre em expressões,ou seja funções anônimas que não possuem nome que estão ligadas a variáveis
 
 
+obs sobre o Dom - Document Object Model ou DOM é o documento HTML que nos permite acessar tudo sobre um projeto web
+
+
 
 
 

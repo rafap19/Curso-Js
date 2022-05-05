@@ -31,6 +31,8 @@ shift - faz a mesma coisa que o pop,mas se refere a primeira posição
 
 splice - remove a posição,podemos escolher qual posição ele quer apagar
 
+join - coloca algo entre os valores,por exemplo podemos por um - entre os valores, ao invés de um array ficar [0,1,2] ele ficaria [0-1-2]. Para isso precisamos armazenar o método join dentro de uma variável
+
 
 
 */
@@ -83,6 +85,11 @@ const arr = ['KitKat','Kinder Ovo','Sorvete']
 
         arr.length = 0
             console.log(arr)
+
+    
+    const segundoArr = [0,1,2,3,4,5]
+        const join = segundoArr.join('-')
+            console.log(join)
 
 
 
