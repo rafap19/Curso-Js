@@ -1,0 +1,8 @@
+Como navegar entre versôes de código
+
+comandos utilizados - git reflog e git reset hard-- numeração do comit 
+
+passo 1 - use o gitlog para ver as versões do código
+
+passo 2 - use o git reset hard-- aqui dentro ponha a numeração do commit e de enter e pronto
+
