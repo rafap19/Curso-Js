@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventosDOM</title>
+    <style>
+        div.area {
+            font: normal 15pt Arial;
+            background:rgb(87, 141, 141);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+
+    
+    </style>
+</head>
+<body>
+   <div class = 'area'onclick = 'clicar()' onmouseenter='entrar()' onmouseout= 'sair()'>
+       Interaja...   <!--relacionamos a classe 'area' e os eventos onclick,onmouseenter e onmouseout,dando um nome semântico para cada um dos eventos.-->
+   </div>
+
+    <script>
+        function clicar() {
+         let click = window.document.querySelector('.area') 
+
+                    area.innerText = 'Clicou'   /* criei a função clicar e dentro dela criei uma variável click que vai me servir como objeto para ligar a função 'clicar' com a classe 'area';
+                    Para isso,utilizaremos o queryselector.
+                    
+                    obs: Vale ainda ressaltar a importância de relacionar os nomes das variáveis com os nomes dos eventos.
+                    
+                    */
+        
+        }
+            function entrar() {
+               let enter = window.document.querySelector('.area')
+                    enter.innerText = 'Entrou'    /* criei a função entrar e dentro dela criei uma variável enter que vai me servir como objeto para ligar a função 'entrar' com a classe 'area';
+                    Para isso,utilizaremos o queryselector.
+                    */
+            } 
+                        
+            function sair(){
+                let out = window.document.querySelector('.area')
+                    out.innerText = 'Saiu'  /* criei a função entrar e dentro dela criei uma variável out que vai me servir como objeto para ligar a função 'entrar' com a classe 'area';
+                    Para isso,utilizaremos o queryselector.
+                    */
+            }
+
+            //Para alteração mais intuitiva e completa,utilizar event listners
+
+
+    </script>
+</body>
+</html>
