@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+
+        <h1>Audios em HTML</h1>
+            <p>Vamos aprender a reproduzir áudios em HTML5</p>
+                <audio autoplay = "autoplay" autoplay controls>
+                    <source src="midia/danilosibemol.mp3" type="audio/mpeg">
+                    <source src="midia/danilosibemol.ogg" type="audio/ogg">
+                    <source src="midia/danilosibemol.wav" type="audio/wav">
+
+                        <p>Infelizmente seu navegador não consegue reproduzir o áudio
+                            <a href="midia/danilosibemol.wav">Clique aqui para baixar o arquivo</a>
+                        </p>
+                </audio>  
+</body>
+</html>
+
+<!--Sobre os áudios... Evitar usar arquivos Wav,pois são muito pesados,podemos por parâmetros na tag ou na parte de parâmetros, dentre eles temos:
+     1 -loop:
+        Repete o áudio
+     2 - Controles:
+        os controles que permitem que o usúarios tenha acesso á controles daquele áudio,ex: pausar,baixar,se não utilizarmos tal parâmetro o som funciona mas o usuário não tem acesso.
+    
+    3 - Autoplay:
+        toca automáticamente o áudio
+
+        obs: neste caso a hierarquia é de baixo para cima,exemplo:primeiro ele testa o primeiro source,depois o segundo e assim em diante
+
+
+-->
+     
+
+
+
