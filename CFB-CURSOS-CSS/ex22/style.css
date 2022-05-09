@@ -1,0 +1,40 @@
+/*Flexbox
+
+flex-shrink = é a propriedade que nos mostra se um item vai ou não aparecer com sua largura ou tamanho original, se caso queremos dar uma largura específica para um ítem ele não funciona porque o padrão de flex shrink é 1,precisamo por 0,só assim o valor será considerado.
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 600px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #000;
+    justify-content:center;
+    align-items: flex-start;
+    
+}
+
+
+.item {
+ margin: 5px;
+ padding: 5px;
+ background:#447;
+ text-align: center;
+ font-size:2em;
+ color:#fff;
+ width: 150px;
+    
+}
+
+.shrink0 {
+    flex-shrink: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+

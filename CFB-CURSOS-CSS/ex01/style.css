@@ -1,0 +1,15 @@
+body {
+    background-image: url(/Img/pac.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 260px 200px;
+}
+
+p {
+    height: 100px;
+    font-weight: bold;
+    font-size: 30pt;
+    background-image: url(/Img/pacbqr.jpg);
+    background-repeat: no-repeat;
+    background-position: 250px 0px;
+}

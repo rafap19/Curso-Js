@@ -1,0 +1,28 @@
+
+/* Criando uma classe flex eu facilito o trabalho,porque toda classe que eu criar basta por flex ao lado que estarei declarando que tal elemento será flexível*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 500px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid #000000;
+    background-color: #06065d;
+}
+
+.item {
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    background-color: #00800073;
+}
+
+.flex {
+    display: flex;
+}

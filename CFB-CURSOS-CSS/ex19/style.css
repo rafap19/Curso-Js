@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*flex-grow: é uma propriedade para itens, a mesma define a habilidade de um flex item aumentar ou não dentro do container
+            
+            padrão: o padrão do flex grow é 0,logo todos os itens se adequam ao tamanho do seu conteúdo
+
+            ao criarmos classes flew-grow podemos trabalhar com os itens,determinando quanto eles ocuparão do conteiner.
+
+            por exemplo, se criamos 3 flex itens  sendo um com flex grow 1, e o outro com flex grow 2, se eu determinar isso em divs eu estarei dizendo que aquela que receber o flex grow 2 deverá ocupar um espaço maior do conteiner. para declarar isso eu preciso colocar essas classes na div.
+
+
+                        <div class="item flexgrow1">1</div>
+                        <div class="item flexgrow2">2</div>
+                        <div class="item flexgrow3">3</div>
+
+                        neste caso por exemplo,ao analisar as classes podemos perceber que estamos querendo dizer que o primeiro item terá o menor espaço dentro do container,também informamos que o segundo item ocupará um espaço maior doque o item 1,além disso ainda falamos que o 3 item terá que ocupar o maior espaço doque todos os itens dentro do container
+            .*/
+
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .container{
+                max-width: 600px;
+                height: 400px;
+                margin: auto;
+                border: 1px solid #000;
+                justify-content:center;
+                align-items: flex-start;
+                
+            }
+
+            .flexgrow0 {
+                flex-grow: 0;
+            }
+
+
+
+            .flexgrow1 {
+                flex-grow: 1;
+            }
+
+
+            .flexgrow2 {
+                flex-grow: 2;
+            }
+
+            .flexgrow3 {
+                flex-grow: 3;
+            }
+            
+            .item {
+             margin: 5px;
+             padding: 5px;
+             background:#447;
+             text-align: center;
+             font-size:3em;
+             color:#fff;
+                
+            }
+            
+            .flex {
+                display: flex;
+            }
+            
+         
+
+            
+            

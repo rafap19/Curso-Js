@@ -1,0 +1,31 @@
+/*Propriedade inherit e initial
+
+inherit = utilizamos quando queremos utilizar as mesmas propriedades de um elemento pai,por exemplo podemos criar duas divs,sendo a primeira font-size 15px e na segunda div eu declarar meu font-size como "inherit",demonstrando que quero o mesmo valor de fonte do elemento pai que neste caso é a div 1,podemos perceber no caso abaixo que a segunda div possui exatamente a mesma largura da div pai que no caso é a d1
+
+
+initial = utiliza o padrão dos elementos,nos browsers a cor padrão  geralmente é preta ou branco,se colocarmos uma div na cor initial,provavelmente ela será branca ou preta, um outro exemplo a fonte padrão de um parágrafo é 16px,logo esse é o seu initial.
+
+
+*/
+
+#d1 {
+    width: 250px;
+    height: 250px;
+    box-shadow: 1px 2px 7px black;
+    background-color: rgb(144, 5, 5);
+}
+
+#d2 {
+    width: inherit;
+    height: 100px;
+    background-color: rgb(14, 14, 133);
+}
+
+#d3 {
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+    background-color: initial;
+    
+
+}

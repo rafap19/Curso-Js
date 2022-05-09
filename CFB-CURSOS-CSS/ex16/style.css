@@ -1,0 +1,51 @@
+/*Flexbox - Flex direction
+
+row = padrão do flex direction,deixa os elementos um ao lado do outro
+
+column = inverte o main x,fazendo que o que estava no eixo x va para o y e vice-versa,criando uma coluna
+
+reverse row = é o rox da direita para a esquerda
+
+reverse column = é a propriedade column de baixo para cima
+
+podemos também utilizar as classes para facilitar o trabalho
+
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    flex-direction: row-reverse;
+    max-width: 500px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid #000000;
+    background-color: #06065d;
+    
+}
+
+.item {
+    margin: 25px 5px 0px 0px;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    height: 41px;
+    font-size: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.671);
+    background-color: #00800073;
+}
+
+.flex {
+    display: flex;
+}
+
+.horizontal {
+    flex-direction: row;
+}
+
+.vertical {
+    flex-direction: column;
+}

@@ -1,0 +1,35 @@
+/*Unidades de medida
+
+
+vw = view width, ou seja 50vw significa que o conteúdo vai ocupar 50% da largura da tela
+
+vh = view height,ou seja 50vh significa que o conteúdo vai ocupar 50% da altura da tela
+
+
+
+
+
+
+
+
+
+
+*/ 
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#d1 {
+    width:20vw;
+    height: 40vh;
+    border: 1px solid #ff0000;
+}
+
+#d2 {
+        width: 10vw;
+        height: 20vh;
+        border: 1px solid #0000ff;
+}

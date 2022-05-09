@@ -1,0 +1,36 @@
+/*FlexBox - propriedads para container
+
+
+    Assim como qualquer outro 'display',o flex box possui uma configuração padrão, no caso ela funciona inicalmente com as seguintes direções de eixo: 
+
+    main axis = da esquerda para a direita no eixo x
+
+    cross axis,de cima para baixo no eixo y
+
+    No flexbox temos propriedes tanto para o container quanto para os elementos(itens ou flex items) que estão dentro desse container.
+
+    o display flex básicamente vai dividir o container em partes iguais, até então caso eu coloque uma quantidade de itens que ultrapasse o max-width os elementos vão aparecer fora do container
+    
+    obs: acredito que algo tenha mudado,testei e os elementos se adaptam automáticamente apenas utilizando o flex,eles não estão saindo para fora do container.
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    display: flex;
+    max-width: 500px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid #000000;
+    background-color: #06065d;
+}
+
+.item {
+    margin: auto;
+    width: 100px;
+    height: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    background-color: #00800073;
+}

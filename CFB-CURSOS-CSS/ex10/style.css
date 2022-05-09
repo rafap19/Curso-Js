@@ -1,0 +1,55 @@
+/*Unidades de medida:
+
+    em = dobro do valor em pixel,em relação ao pai do elemento.
+
+        ex: Se temos um body com font-size de 10px, e dentro desse body temos um parágrafo na qual determinamos que o font size vai ter 2em  essa fonte vai ter 2x o valor da fonte do body,no caso teremos 20px.
+        
+
+    rem = possui certa semelhança com o em,no entanto oque se leva em consideração é o elemento raíz ou root no início do css,logo se criarmos um root na qual o font size vai ter 20px, e criamos um h1 com tamanho de fonte 3rem, teremos o valor da font do root x 3,no caso teremos 60px.
+
+
+    % = Leva em consideração o espaço do elemento anterior,ou seja quantos porcento queremos que a div atual suporte em relação a div anterior,no caso abaixo utilizamos 100% da largura e 50% da altura,isso significa que a d2 vai ocupar 100% da largura da d1 e 50% da altura da mesma
+
+
+    
+*/
+
+body {
+    font-size: 10px;
+
+}
+
+body > p {
+
+    font-size: 2em;
+}
+
+
+
+:root {
+    font-size: 20px;
+}
+
+
+h1 {
+    font-size: 3rem;
+}
+
+div {
+    width: 300px;
+}
+
+#d1 {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+
+#d2 {
+    width: 100%;
+    height: 50% ;
+    border: 1px solid blue;
+}
+
+

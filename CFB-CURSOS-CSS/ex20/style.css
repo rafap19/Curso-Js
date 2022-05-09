@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*flex-basis: é uma propriedade para itens,bem parecida com o flex grow,no entando se diferencia no seguinte: caso existam elementos que possuem o mesmo valor flex basis, ainda que o conteúdo de um seja maior doque o outro isso não vai alterar no tamanho do item,diferente do flex grow,que irá indicar uma porcentagem maior do container para o item que possuir mais conteúdo.
+            
+            padrão: o padrão do flex basis é auto
+
+            .*/
+
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .container{
+                max-width: 600px;
+                height: 400px;
+                margin: auto;
+                border: 1px solid #000;
+                justify-content:center;
+                align-items: flex-start;
+                
+            }
+
+            
+            .item {
+             margin: 5px;
+             padding: 5px;
+             background:#447;
+             text-align: center;
+             font-size:3em;
+             color:#fff;
+                
+            }
+            
+            .flex {
+                display: flex;
+            }
+
+            .flexbasis0 {
+                flex-basis: 0;
+            }
+
+            .flexbasis0 {
+                flex-basis: 1;
+            }
+
+            .flexbasis0 {
+                flex-basis: 2;
+            }

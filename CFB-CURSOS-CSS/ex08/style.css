@@ -1,0 +1,7 @@
+#dv1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    background: linear-gradient(to bottom,red,blue);
+}

@@ -1,0 +1,40 @@
+/*Flexbox
+
+align self = nos permite mudar o alinhamento de um único item dentro de um grupo de elementos.
+
+neste exemplo utilizamos tal propriedade para aplicar a propriedade strech apenas no primeiro flex-item
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 600px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #000;
+    justify-content:center;
+    align-items: flex-start;
+    
+}
+
+
+.item {
+ margin: 5px;
+ padding: 5px;
+ background:#447;
+ text-align: center;
+ font-size:2em;
+ color:#fff;  
+}
+
+.align-self {
+    align-self: stretch;
+}
+
+.flex {
+    display: flex;
+}
+
+

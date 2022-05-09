@@ -1,0 +1,51 @@
+/*Flexbox - Flex wrap
+
+flex wrap - define a quebra de linha do conteiner, se os itens vão ou não poder passar para a linha de baixo
+
+padrão = no wrap
+
+wrap = permite a quebra de linha
+wrap-reverse = permite a quebra levando em consideração o main x reverso,ou seja da direita para a esquerda
+
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 500px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid #000000;
+    background-color: #06065d;
+    
+}
+
+.item {
+    margin: 25px 5px 0px 0px;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    height: 41px;
+    font-size: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.671);
+    background-color: #00800073;
+}
+
+.flex {
+    display: flex;
+}
+
+.horizontal-reverso {
+    flex-direction: row-reverse;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}

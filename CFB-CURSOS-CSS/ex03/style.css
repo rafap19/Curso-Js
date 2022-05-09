@@ -1,0 +1,36 @@
+#d1,#d2,#d3 {
+    background-color: green;
+    padding: 35px;
+    border: 10px dashed black;
+}
+
+#d1 {
+    background-clip: border-box;
+}
+
+#d2 {
+    background-clip: padding-box;
+}
+
+#d3 {
+    background-clip: content-box;
+}
+
+/*background clip: determina aonde inicia o background.
+
+border-box: começa o background no início da borda.
+
+padding-box:começa o background apenas depois da borda.
+
+content-box: começa o background ao redor do conteúdo apenas
+
+padding: margem interna dos elementos
+
+
+
+
+
+
+
+
+*/

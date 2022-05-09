@@ -1,0 +1,31 @@
+/*Flexbox 2
+    podemos ainda criar uma classe para o flexbox e acrescentar depois da classe do container que queremos trabalhar,ex:
+
+    obs: neste caso o id torna o trabalho um pouco mais complicado,por isso nesse caso é melhor utilizar ambos com classe como no próximo exemplo do ex 15
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container.flex {
+    max-width: 500px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid #000000;
+    background-color: #06065d;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+.item {
+    margin: auto;
+    width: 100px;
+    height: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    background-color: #00800073;
+}

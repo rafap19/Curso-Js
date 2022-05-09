@@ -1,0 +1,83 @@
+/*Flexbox para items - justify content
+
+    justify-content = define o alinhamento dos itens de acordo com o main axis ou eixo x
+
+
+propriedades:
+
+
+flex-start = padrão,inicio do eixo main x
+
+
+flex-end = iniciar no fim do eixo main x
+
+
+center = centraliza os elemento
+
+
+space-around = distribui os elementos igualmente.
+
+
+space-between = distribui os elementos igualmente,sendo o primeiro posicionado no flex start e o ultimo elemento posicionado no flex end,lembrando que ele vai se adaptando,por exemplo caso haja apenas dois elementos um fica no start e um no end.
+
+----------------------------------------//--------------------------------------------------
+
+Flexbox para items - Align Items
+
+    align-items = Controla o alinhamento do eixo cross axis ou eixo y
+
+
+propriedades:
+
+strech: valor padrão,estica os itens na mesma medida do container
+
+flex-start = inicio do eixo secundário,ou cross axis ou eixo y,ele considera o início ou seja a parte de cima do eixo y.
+
+flex-end = fim do eixo secundario,considera como início a parte de baixo,ou seja o fim do eixo y.
+
+center = centro do eixo y
+
+            
+
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 600px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #000;
+    justify-content:center;
+    align-items: flex-start;
+    
+}
+
+.item {
+ margin: 5px;
+ padding: 5px;
+ background:#447;
+ text-align: center;
+ font-size:3em;
+ color:#fff;
+    
+}
+
+.flex {
+    display: flex;
+}
+
+.horizontal-reverso {
+    flex-direction: row-reverse;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}

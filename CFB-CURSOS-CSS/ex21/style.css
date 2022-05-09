@@ -1,0 +1,68 @@
+/* flex box 
+
+
+flex-order: serve para redefinir a ordem dos elementos,por padrão os elementos são ordenados de acordo com as divs, ou seja se eu ponho 3 divs ele vai respeitar quem foi a primeira,depois a segunda e por fim a terceira.É uma propriedade bem simples de ser utilizada,basta determinar as classes e suas determinadas posições e aplicalas aos elementos e tais serão respeitados.
+
+ex:
+
+<div class="item flex pos1">4</div>
+<div class="item flex pos0">5</div>
+
+neste caso a primeira posição a ser considerada sera pos0,pois tem valor 5
+
+
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 600px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #000;
+    justify-content:center;
+    align-items: flex-start;
+    
+}
+
+
+.item {
+ margin: 5px;
+ padding: 5px;
+ background:#447;
+ text-align: center;
+ font-size:2em;
+ color:#fff;
+    
+}
+
+.order0{
+   order: 0;     
+}
+
+.order1{
+    order: 1;
+}
+
+.order2{
+    order: 2;
+}
+
+.order3{
+    order: 3;
+}
+
+.order4{
+    order: 4;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+
