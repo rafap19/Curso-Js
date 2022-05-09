@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+         <h1>Inserindo videos hospedados localmente</h1>   
+                <p>Este video está hospedado no meu próprio servidor.</p>
+
+        <video width = "800"  poster = "imagens/thumb.png" controls>
+
+            <source src="midia/Deus da Minha Vida - Solo.mp4" width = "800" controls></video>
+
+            <source src="midia/Deus da Minha Vida - Solo.m4v" width = "800" controls></video>
+            
+            <source src="midia/Deus da Minha Vida - Solo.webm" width = "800" controls></video>
+            <source src="midia/Deus da Minha Vida - Solo.ogv" width = "800" controls></video>
+        </video>
+
+  
+</body>
+</html>
+
+<!--A forma de inserção de videos é igual a de áudio, basta por depois do video o parâmetro de largura e os controles-->
+<!-- Também podemos fazer de uma forma inteligente,se deixarmos apenas no parâmetro inicial video e utilizar ao invés de source o "video, dessa forma não teriamos que repetir os parâmetros "width";
+Podemos perceber que isso também se aplica ao parâmetro de controle,evitando assim de ter que o por mais de uma vez -->
+<!--criando o parâmetro poster,colocamos uma thumb no video-->
+
+
+
+
+

@@ -1,0 +1,29 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif; /* SAFE COMBINATION: existem navegadores,como por exemplo na tv que podem não ter a fonte arial ou outras fontes,por isso escolhemos uma combinação segura,caso não tenha arial muito provavelmente terá uma das outras duas fontes.
+    
+    Neste caso temos o seguinte: Se houver a fonte arial mostre, senão mostre a helvetica,senão mostre  a fonte padrão sem serifa do dispositivo*/
+
+    font-size: 1em;
+    font-weight: normal;
+    /* lighter,normal,bold,bolder
+    os numéricos começam em 100 e vão até 900*/
+    font-style: italic;
+    
+}
+
+h2{
+    /*font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 3em;
+    font-style: italic; */
+
+    /*Podemos simplificar os códigos de cima utilizanto uma propriedade 'shorthand', a ordem é a seguinte: font style -> font weight -> font size -> font family*/
+
+    font: italic bolder 3em 'Work Sans',sans-serif;
+}

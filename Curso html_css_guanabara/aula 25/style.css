@@ -1,0 +1,203 @@
+/*
+    Fontes:
+    font-family: 'Poppins', sans-serif; ---- Para Títulos
+    font-family: 'Poppins', sans-serif;  ---- Para Subtítulos
+    
+                            Deus é fiel!
+    
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ol, ul , li {
+	list-style: none;
+    list-style-type: none;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
+:root {
+
+    --corc00: #daac00;
+    --cor302: #fcc302;
+    --cor220: #f2c220;
+    --cor422: #f4c422;
+    --cor434: #343434;
+    --corfff: #fff;
+    --cordc9: #00bdc9;
+
+                    /*header: #daac00
+                    section 1,3,5:#fcc302
+                    
+                    section 2,4,6:#fff
+                    section 7: #f4c422
+                    aside: #fff
+                    footer: #343434*/
+}
+
+
+
+    
+
+  header {
+        width: 100%;
+        height: 80px;
+        background-color: #daac00;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+  }
+  
+  ul {
+
+    display: flex;
+    
+  }
+ 
+
+ li a {
+     color: white;
+     display: block;
+     text-decoration: none;
+     margin-left: 10px;
+ }
+
+
+ li a:hover {
+    color: #9d9494;
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+h1,h2 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+
+
+
+  .nav {
+      height: 40px;
+      width: 40px;
+      color: white;
+      align-self: center;
+  }
+
+  .container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container div {
+
+   flex: 1 1 300px;
+   margin: 10px;
+  }
+
+
+ 
+
+  .img{
+      width: 100%;
+      border-radius: 10px;
+  }
+
+  body{
+      width: 100%;
+      height: 100vh;
+      background-color: #343434;
+  }
+
+  
+
+  .section1 {
+
+    background-color: var(--cor302);
+  }
+
+
+
+
+  .section2 {
+
+    background-color: #fff;
+}
+
+ 
+
+
+.section3 {
+
+    background-color: var(--cor302);
+}
+
+
+
+
+.section4 {
+
+    background-color: #fff;
+}
+
+
+.section5 {
+
+    background-color: var(--cor302);
+}
+
+
+
+
+.section6 {
+
+    background-color: #fff;
+}
+
+
+
+.section7 {
+
+    background-color: #f4c422;
+}
+
+
+
+.aside {
+
+    background-color: #fff;
+
+}
+
+
+.footer {
+
+    background-color: #343434;
+
+}
+
+    .grid {
+        display: grid;
+    }
+
+   

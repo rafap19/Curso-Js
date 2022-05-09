@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+body{
+    text-align: justify; /* alinha para esquerda e direita */
+    text-indent: 20px;  /* Cria um paragrafo para redação */
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family:'Mountains of Christmas';
+    src: url('MountainsofChristmas-Bold.ttf') format('truetype');
+}
+
+/* TIPOS DE format():
+- opentype (otf)
+- truetype (ttf)
+- enbedded-opentype
+- truetype-aat (Apple advanced Typography)
+- svg */
+h1{
+    font: normal bold 3em 'Mountains of Christmas','Arial';
+
+     
+}

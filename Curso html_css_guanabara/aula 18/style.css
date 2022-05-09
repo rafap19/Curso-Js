@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(132, 209, 132);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: green;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}  /* Basta dar um id e utilizar aqui para personalizar,podemos fazer isso com class também*/
+
+
+
+.basico{
+    color: rgb(58, 80, 58);
+    text-align: left;
+    background-color: green;
+    color: white;
+}
+
+.intermediário{
+    color: rgb(196, 199, 54);
+    text-align: left;
+    background-color: rgb(163, 146, 50);
+    color: white;
+}
+
+.avançado{
+    color: rgb(255, 14, 14);
+    text-align: left;
+    background-color: rgb(114, 27, 27);
+    color: white;
+}
+
+
+/* DIFERENÇA ENTRE ID E CLASSE:
+id é único,classe pode ser múltiplo.
+Isso significa que eu posso utilizar um mesmo id em apenas um caso, agora com a classe eu posso usar o mesmo nome de classe para vários seletores.No entanto também podemos fazer de modo separado.Também podemos adicionar mais de uma classe a um elemento, por exemplo::-webkit-search-results-button
+
+    class ='basico intermediario'. Neste caso será acrescentado a classe basico e intermediário a um elemento.
+
+    Por fim também podemos por id e class juntos.Ex:
+
+    id = 'basico' class = 'intermediario'
+    obs: as configurações de id sobrepõe as de class 
+ /*

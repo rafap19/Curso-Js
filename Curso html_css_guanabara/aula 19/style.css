@@ -1,0 +1,19 @@
+div{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+
+}
+
+div:hover{
+    background-color: #c7c7c7;
+}
+
+/* DIV EM CSS = #
+CLASSE EM CSS = .
+PSEUDO CLASSE EM CSS = : */
+
+/* Pseudo classe é um estado de determinado elemento, no caso utilizamos uma pseudo classe hover, ou seja um estado no caso da div*/
