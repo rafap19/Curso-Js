@@ -1,19 +1,21 @@
 
 
-        /*Voce tem um array de números,retorne a some de todos os valores positivos desse array */
+        /*Voce tem um array de números,retorne a soma de todos os valores positivos desse array */
 
         let arr = [1,-4,7,12]
 
-        function positiveSum() {
+        positiveSum = () => {
             
-            let soma = 0
+           let soma = 0
 
-                for(let i = 0; i < arr.length;i++) {
-                    if(arr[i] >= 0){
-                        soma = soma + arr[i]
-                    }
+           for(let i = 0; i < arr.length;i++) {
+
+                if(arr[i] >= 0) {
+
+                    soma = soma + arr[i]
                 }
-                    return soma
+           }
+                return soma
         }
 
         console.log(positiveSum())

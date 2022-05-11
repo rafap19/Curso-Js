@@ -3,7 +3,7 @@ let arr = [10,20,30]
 let arr2 = [10,10,10,10]
 
 
-function sumArr() {
+sumArr = () => {
     
     let somaArr = 0
     let somaArr2 = 0
