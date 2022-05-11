@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treino js</title>
+    
+</head>
+<body>
+    <h1>nota</h1>
+    <input type="button" value="adicione uma nota" id="bt">
+    <script>
+
+        /*Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações. */
+
+        let bt = document.getElementById('bt').onclick = mostraUsuario
+
+        function mostraUsuario() {
+            
+            let usuario = prompt('Escolha um nome de usuário')
+            let senhaUsuario = prompt('Escolha uma senha')
+            let login = {usuario: usuario,senha:senhaUsuario}
+                
+            
+
+                if(usuario === senhaUsuario) 
+                    return alert('A senha não pode ser igual ao login!')
+
+                else  return alert(JSON.stringify(login))
+
+            }
+        
+      
+    </script>
+</body>
+</html>
+
+
+
+
