@@ -23,5 +23,5 @@ const cores = ['verde', 'azul','amarelo']
 
     for(let key in filme) {
 
-        console.log(key,filme.categoria,)
+        console.log(key,filme.categoria)
     }

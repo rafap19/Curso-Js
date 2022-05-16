@@ -1,21 +1,21 @@
+/*Calcule o fatorial de um número*/
 
-let string = 'javascript'
+let num = 4
 
-addZ = () => {
+let fatorial = num 
 
-    let stringResult;
+calculafatorial = () => {
 
-    for(let i = 0;i < string.length;i++){
+    for(cont = 1; cont < num; cont++) {
 
-        if((i) % 2 == 0) {
-
-            
-
-            stringResult = stringResult + string.replace(string[i],'Z')
-        }
+        fatorial = fatorial * (num - cont)
     }
-            return stringResult
-      
+
+    return fatorial
+
 }
 
-console.log(addZ())
+
+
+console.log(calculafatorial())
+

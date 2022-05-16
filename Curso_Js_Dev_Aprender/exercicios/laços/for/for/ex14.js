@@ -11,6 +11,7 @@ arrInverso = () => {
 
     console.log(arr[i])
   }
+  
     
 }
 
