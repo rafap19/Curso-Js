@@ -10,27 +10,30 @@
 9.0 - 10: A
 */
 
-const array = [80,80,100]
+let boletim = [8.0,8.0,7.5,4.8]
 
-function mediaDoAluno(notas){
+mediaDoAluno = () => {
 
-    let media = calcularMedia(notas)
-     
-     if(media < 59) return 'F'
-     if(media < 69) return 'D'
-     if(media < 79) return 'C'
-     if(media < 89) return 'B'
-     return 'A'
+let soma = 0
+let media = 0
+
+    for(notas of boletim)
+        soma = soma + notas
+        media = (soma)/4
+           
+        if(media <= 5.9 && media >= 0){
+            console.log(`Média: ${media} - Conceito F`)
+        }else if(media <= 6.9 && media >= 6.0){
+            console.log(`Média: ${media} - Conceito D`)
+        }else if(media <= 7.9 && media >= 7.0){
+            console.log(`Média: ${media} - Conceito C`)
+        }else if(media <= 8.9 && media >= 8.0){
+            console.log(`Média: ${media} - Conceito B`)
+        }else if(media <= 10 && media >= 9.0){
+            console.log(`Média: ${media} - Conceito A`)
+        }else{
+            console.log('Algo deu errado')
+        }
 }
 
-function calcularMedia(array){
-
-    let soma = 0
-
-     for (let valor of array){
-         soma += valor
-     }
-     return soma/(array.length)
-}
-
-console.log(mediaDoAluno(array))
+mediaDoAluno()

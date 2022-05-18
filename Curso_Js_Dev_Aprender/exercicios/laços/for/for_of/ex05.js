@@ -6,14 +6,7 @@
 const carros = (['Gol','Uno','S10','Kadett'])
 
 mostraCarros = () => {
-
-    let  listaDeCarros;
-    
-    for(carro of carros) {
-
-        let listaDeCarros = console.log(carro)
-    }
-        return listaDeCarros
+    for(carro of carros) console.log(carro)
 }
 
 mostraCarros()

@@ -7,6 +7,26 @@ sumArr = () => {
     
     let somaArr = 0
     let somaArr2 = 0
+ 
+ 
+   for(i of arr) i % 2 == 0 ? somaArr = somaArr + i:false
+   for(i2 of arr2) i2 % 2 == 0 ? somaArr = somaArr + i2:false
+            return somaArr + somaArr2
+
+
+}
+
+   console.log(`A soma entre os arrays será igual a: ${sumArr()}`)
+
+
+   
+
+
+
+/* 
+Maneira mais suja utilizando os ifs
+ let somaArr = 0
+    let somaArr2 = 0
 
 
    for(i of arr) {
@@ -24,9 +44,4 @@ sumArr = () => {
             somaArr2 = somaArr2 + i2
         }
     }
-            return somaArr + somaArr2
-
-
-}
-
-   console.log(`A soma entre os arrays será igual a: ${sumArr()}`)
+            return somaArr + somaArr2 */

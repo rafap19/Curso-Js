@@ -23,10 +23,7 @@ somaArraysPorPosition = () => {
         const pos0 = arr_1[0] + arr_2[0]
         const pos1 = arr_1[1] + arr_2[1]   
         const pos2 = arr_1[2] + arr_2[2]    
-
         soma_ArrPorPosition = [pos0,pos1,pos2]
-    
-            
         }
 
     }

@@ -6,10 +6,8 @@ let arr = [1,2,3,4,5,6,7,8,9]
 
 function showListOnDescendingOrder(){
 
-    for(let i = 9;i >= 1; i--){
-
-        console.log(i)
-    }
+  for(let i = arr.length; i > 0; i--)
+    console.log(i)
 }
 
  showListOnDescendingOrder()

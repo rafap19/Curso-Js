@@ -1,34 +1,23 @@
-/*for(let contador = 0; contador < 10; contador++){
 
-    console.log(`${contador}: Eu vou aprender a programar!`)
-}*/
+/*multiploDeTres = () =>{
 
-/*function multiploDeTres(){
+for(let i = 0; i <= 10;i++)
 
-for(let contador = 0; contador <= 10; contador++) {
+i % 3 == 0 ? console.log(`${i} - É MÚLTIPLO DE 3`)
+: console.log(`${i} - NÃO É MÚLTIPLO DE 3`)
 
-    if(contador % 3 === 0) 
-        console.log(`${contador}: é múltiplo de 3`)
-    else 
-        console.log(`${contador}: Não é múltiplo de 3`)
-
-    }
 }
 
 multiploDeTres()*/
 
 
-
 let revelaValorImpar = () => {
 
-    for(let value = 0; value <= 10; value++ )
+for(let i = 1; i <= 10; i++) 
 
-        if(value % 2 != 0)
-         console.log(`${value}: Ímpar!`)
-        else console.log(`${value} : Par`)
-        
-
-    }
+    i % 2 == 1 ? console.log(`${i}: ÍMPAR`)
+     : console.log(`${i} : PAR`)
+}
 
 revelaValorImpar()
 

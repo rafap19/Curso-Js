@@ -6,6 +6,7 @@ const usuario =  {
 
 ShowUsuario = () => {
 
-    for(user in usuario) console.log(`${user}: ${usuario[user]}`)
+   for(user in usuario) console.log(`${user} : ${usuario[user]}`)
+   
 }
 ShowUsuario()

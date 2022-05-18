@@ -4,12 +4,8 @@ const filme = {
     personagem: 'Thor'
 }
 
-function exibirPropriedades(obj) {
+function exibirPropriedades() {
 
-    for (prop in obj){
-        if(typeof obj[prop] === 'string'){
-            console.log(prop,obj[prop])
-        }
-    }
+   for(prop in filme) console.log(`${filme[prop]}`)
 }
-exibirPropriedades(filme)
+exibirPropriedades()

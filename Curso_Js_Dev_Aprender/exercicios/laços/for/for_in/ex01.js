@@ -21,5 +21,5 @@ const cores = ['verde', 'azul','amarelo']
         ano: 2000
     }
 
-    for(key in filme) console.log(filme[key])
+    for(key in filme) console.log(`${key} : ${filme[key]}`)
     

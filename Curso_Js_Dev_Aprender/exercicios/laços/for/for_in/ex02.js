@@ -12,7 +12,7 @@ const identidade =
 
     showObjKeyValue = () => {
 
-        for(pessoa in identidade) console.log(identidade[pessoa])
+       for(infoPessoa in identidade) console.log(`${infoPessoa} : ${identidade[infoPessoa]}`)
     }
 
     showObjKeyValue()
