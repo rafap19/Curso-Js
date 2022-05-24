@@ -17,9 +17,8 @@ function imprimeNome() {
         function auxiliar(valor) {
             return 10 + valor
         }
-    }
 
-    return {
+         return {
         add5() {
             return auxiliar(5);
         },
@@ -27,8 +26,10 @@ function imprimeNome() {
             return auxiliar(7);
         }
     }
+}
 
 var biblioteca = minhaBiblioteca();
 console.log(biblioteca)
 console.log(biblioteca.add5())
 console.log(biblioteca.add7())
+
