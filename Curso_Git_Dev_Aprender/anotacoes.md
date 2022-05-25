@@ -20,6 +20,8 @@ obs: caso não funcione tente git remote set-url origin + o seu link
 
 git push -u origin main - faz o push para o nosso repositório remoto,após o primeiro push não é necessário o -u  basta escrever push origin main
 
+obs: ao criar repositório ao por licença gera bug na hora do push
+
 clear - limpa o nosso git
 
 git checkout -b 'nome da branch' - cria uma nova branch e muda o local de desenvolvimento para o da branch nova 
