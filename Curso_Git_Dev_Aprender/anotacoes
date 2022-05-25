@@ -32,7 +32,9 @@ git clone - clona repositórios, git clone + link do repositório
 
 git pull - caso alteramos algo em nosso arquivo dentro do github e queremos que essa alteração também funcione no repositório local basta utilizarmos esse comando
 
-git cd - serve para abrir uma pasta, para utilizar basta digitar cd + nome da pasta aonde está situado o conteúdo
+cd - serve para abrir uma pasta, para utilizar basta digitar cd + nome da pasta aonde está situado o conteúdo
+
+cd.. - volta uma pasta
 
 fork - é importante ressaltar que se clonarmos um repositório de alguem direto sem fazer um fork ele não irá aparecer no nosso repositório remoto,para isso precisamos dar um fork e a partir do fork fazemos a clonagem
 
