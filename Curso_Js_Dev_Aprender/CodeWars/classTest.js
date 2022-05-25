@@ -14,14 +14,14 @@ Your points are not included in the array of your class's points. For calculatin
  betterThanAverage = (yourPoints) => {
 
     let classPoints = [7.8,8.5,9.2]
-    
-    /*loop for of para definir se a nota do aluno é maior que todas as dos outros da classe */
+      
+      /*loop for of para definir se a nota do aluno é maior que todas as dos outros da classe */
     for(eachStudentPoint of classPoints){ 
 
-     yourPoints > eachStudentPoint ? console.log(true): console.log(false) 
-        break
-                            
-    } 
+      yourPoints > eachStudentPoint ? console.log(true): console.log(false) 
+         break
+                        
+     } 
 }            
 
   betterThanAverage(9.5)
