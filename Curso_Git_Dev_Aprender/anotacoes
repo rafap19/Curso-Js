@@ -12,9 +12,7 @@ git status - mostra se foram feitos comits e quais foram os arquivos postos na s
 
 git commit -m '' - faz o commit,devemos escrever a mensagem nos parênteses
 
-o github tem mudado para main o nome da branch principal,é importante que isso seja conversado com os integrantes da empresa caso ainda estejam adotando o modo antigo(master)
-
-comando para mudar para main = git branch - M 'main'
+git branch -M 'main' - altera o nome da branch master para main
 
 git remote add origin - linka o repositório remoto ao repositório local, para utilizar basta por o git remote add origin + link do repositório remoto utilizado
 
