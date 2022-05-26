@@ -22,7 +22,7 @@ git push -u origin main - faz o push para o nosso repositório remoto,após o pr
 
 obs: ao criar repositório ao por licença gera bug na hora do push
 
-clear - limpa o nosso git
+clear  ou CTRL + L - limpa o nosso terminal do git
 
 git checkout -b 'nome da branch' - cria uma nova branch e muda o local de desenvolvimento para o da branch nova 
 
@@ -34,14 +34,24 @@ git pull - caso alteramos algo em nosso arquivo dentro do github e queremos que 
 
 cd - serve para abrir uma pasta, para utilizar basta digitar cd + nome da pasta aonde está situado o conteúdo
 
-cd.. - volta uma pasta
+cd .. - volta uma pasta
+
+cd ../..  - volta duas pastas
+
+Tab(atalho) - Ao entrarmos em um pasta através do cd para evitar escrever todo o nome complexo de uma pasta podemos escrever o início e apertar o tab,
+dessa forma o git identifica e já busca tal informação.
+
+dir - lista as pastas que estão no diretório
+
+echo > 'nome do arquivo' - Podemos criar arquivos dentro da pasta também através do terminal,para isso basta escrever echo > index.html por exemplo e
+criaremos um arquivo html dentro da nossa pasta
 
 fork - é importante ressaltar que se clonarmos um repositório de alguem direto sem fazer um fork ele não irá aparecer no nosso repositório remoto,para isso precisamos dar um fork e a partir do fork fazemos a clonagem
 
 pull request - se caso fizermos um fork em um projeto do vs code e acharmos um erro e concertarmos o erro ou melhorarmos o código podemos enviar um pull request para o pessoal da equipe do vs code,dessa forma eles podem ou não aprovar o meu pull request,caso eles realizem o pull a alteração que eu fiz no código será aplicada no projeto e com isso podemos contribuir com grandes empresas.
 
 
-Como navegar entre versôes de código
+### Como navegar entre versôes de código
 
 comandos utilizados - git reflog e git reset hard-- numeração do comit 
 
