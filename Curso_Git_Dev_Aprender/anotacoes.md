@@ -63,3 +63,7 @@ passo 1 - use o gitlog para ver as versões do código
 
 passo 2 - use o git reset hard-- aqui dentro ponha a numeração do commit e de enter e pronto
 
+### Como Corrigir Conflitos
+
+Basta fazer manualmente,identificar qual o commit desatualizado e substituí-lo pelo atual,commitando-o e fazerndo um push novamente
+
