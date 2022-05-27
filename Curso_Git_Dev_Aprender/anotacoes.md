@@ -45,7 +45,7 @@ mv 'nome do arquivo' ./'nome da pasta que o arquivo sera redirecionado, ex:  mv 
 Tab(atalho) - Ao entrarmos em um pasta através do cd para evitar escrever todo o nome complexo de uma pasta podemos escrever o início e apertar o tab,
 dessa forma o git identifica e já busca tal informação.
 
-dir - lista as pastas que estão no diretório
+dir ou ls - lista as pastas que estão no diretório
 
 echo > 'nome do arquivo' - Podemos criar arquivos dentro da pasta também através do terminal,para isso basta escrever echo > index.html por exemplo e
 criaremos um arquivo html dentro da nossa pasta
