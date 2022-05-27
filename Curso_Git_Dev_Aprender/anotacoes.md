@@ -8,7 +8,11 @@ git add - envia o arquivo para a stading area,no github desktop os arquivos já 
 
 git add . - podemos escrever isso para commitar todos os nossos arquivos
 
-git restore --staged + nome do arquivo - 
+git restore --staged + nome do arquivo -  Tira o arquivo da area de stage para untracked
+
+git config --global user.name 'nome do usuário' - configura usuário no git
+git config --global user.email 'nome do email' - configura email do usuário
+git config --global core.editor + código do editor de código(ex vscode: code .) - configura editor de código
 
 git status - mostra se foram feitos comits e quais foram os arquivos postos na stading area
 
