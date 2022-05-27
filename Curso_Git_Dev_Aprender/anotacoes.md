@@ -49,6 +49,8 @@ dessa forma o git identifica e já busca tal informação.
 
 dir ou ls - lista as pastas que estão no diretório
 
+mkdir + nome da pasta - cria uma pasta
+
 echo > 'nome do arquivo' - Podemos criar arquivos dentro da pasta também através do terminal,para isso basta escrever echo > index.html por exemplo e
 criaremos um arquivo html dentro da nossa pasta
 
@@ -69,7 +71,7 @@ passo 2 - use o git reset hard-- aqui dentro ponha a numeração do commit e de 
 
 Basta fazer manualmente,identificar qual o commit desatualizado e substituí-lo pelo atual,commitando-o e fazerndo um push novamente
 
-### Como Cadastrar chave SSH - Passo a passso
+### Como Cadastrar chave SSH - Passo a passo
 
 O github utiliza essa chave para identificar se o usuário que está enviando o código é realmente o usuário do github
 
@@ -85,7 +87,19 @@ O github utiliza essa chave para identificar se o usuário que está enviando o 
 
 6 - Copie a chave,entre no github,e nas configurações entre na aba 'SSH and GPG Keys'
 
-7 - cole a chave ssh na parte de key e dê um título,recomenda-se um título para o dispositivo por exemplo 'PC-Rafael'
+7 - Entre em 'New SSH Key'
+
+8 - cole a chave ssh na parte de key e dê um título,recomenda-se um título para o dispositivo por exemplo 'PC-Rafael'
+
+9 - Volte para o terminal git no diretório ~/.ssh e digite o comando eval $(ssh-agent -s) e pressione enter
+
+10 - digite o comando ssh-add + nome da chave ssh privada e basta pressionar enter
+
+### Exemplo de utilização de chave SSH
+
+1 - ao clonar um repositório por exemplo,precisamos cloná-lo utilizando a código ssh e não http
+
+2 - basta dar um git clone + código ssh do repositório remoto
 
 
 
