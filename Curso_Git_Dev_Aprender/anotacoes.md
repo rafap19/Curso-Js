@@ -36,6 +36,8 @@ git pull - caso alteramos algo em nosso arquivo dentro do github e queremos que 
 
 cd - serve para abrir uma pasta, para utilizar basta digitar cd + nome da pasta aonde está situado o conteúdo
 
+cd ~/nome do diretorio/ - Podemos alterar o diretório digitando tal código, ex: cd ~/Documents/cursos-programacao/
+
 cd .. - volta uma pasta
 
 cd ../..  - volta duas pastas
@@ -66,4 +68,28 @@ passo 2 - use o git reset hard-- aqui dentro ponha a numeração do commit e de 
 ### Como Corrigir Conflitos
 
 Basta fazer manualmente,identificar qual o commit desatualizado e substituí-lo pelo atual,commitando-o e fazerndo um push novamente
+
+### Como Cadastrar chave SSH - Passo a passso
+
+O github utiliza essa chave para identificar se o usuário que está enviando o código é realmente o usuário do github
+
+1 - Copie e cole isso no terminal substituindo o email padrão pelo seu ssh-keygen -t rsa -b 4096 -C "your_email@example.com" 
+
+2 - para as mensagens seguintes basta apertar enter
+
+3 - após criar a chave acesse cd ~/.ssh/
+
+4 - Verifique suas chaves digitando ls ou dir
+
+5 - digite o comando cat id_rsa.pub
+
+6 - Copie a chave,entre no github,e nas configurações entre na aba 'SSH and GPG Keys'
+
+7 - cole a chave ssh na parte de key e dê um título,recomenda-se um título para o dispositivo por exemplo 'PC-Rafael'
+
+
+
+
+
+
 
