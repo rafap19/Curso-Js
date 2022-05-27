@@ -8,6 +8,8 @@ git add - envia o arquivo para a stading area,no github desktop os arquivos já 
 
 git add . - podemos escrever isso para commitar todos os nossos arquivos
 
+git restore --staged + nome do arquivo - 
+
 git status - mostra se foram feitos comits e quais foram os arquivos postos na stading area
 
 git commit -m '' - faz o commit,devemos escrever a mensagem nos parênteses
@@ -37,6 +39,8 @@ cd - serve para abrir uma pasta, para utilizar basta digitar cd + nome da pasta 
 cd .. - volta uma pasta
 
 cd ../..  - volta duas pastas
+
+mv 'nome do arquivo' ./'nome da pasta que o arquivo sera redirecionado, ex:  mv cursos ./estudos/
 
 Tab(atalho) - Ao entrarmos em um pasta através do cd para evitar escrever todo o nome complexo de uma pasta podemos escrever o início e apertar o tab,
 dessa forma o git identifica e já busca tal informação.
