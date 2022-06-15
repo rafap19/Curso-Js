@@ -1,4 +1,4 @@
-/* Reduce: o reduce tem uma vantagem sobre o map e filter,ele pode nos retornar além de arrays,objetos,números,strings e etc,seus parâmetros são uma função e o valor inicial */
+/* Reduce: o reduce tem uma vantagem sobre o map e filter,ele pode nos retornar além de arrays,objetos,números,strings e etc,seus parâmetros são uma função e o valor inicial,esse valor inicial será o valor inicial da soma neste caso 0 */
 
 const numeros = [2, 3, 6, 5, 10];
 let novoArrayNumeros = []
