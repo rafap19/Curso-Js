@@ -1,7 +1,7 @@
 /* a diferença dos reduce para os métodos filter e map é que com ele o valor retornado pode ser qualquer coisa(função,array,string,número etc), seus parâmetros são uma function e o valor inicial,essa function será o item a iterar ou seja o índice, e o valor inicial será oque será utilizado como valor inicial no caso o 0.
 
 
-Essa função recebe dois parâmetros, 1 - o item de acumulação,como comparação ess seria a variável soma abaixo
+Essa função recebe dois parâmetros, 1 - o item de acumulação,como comparação esse seria a variável soma abaixo
 */
 
 const numeros = [2, 3, 6, 5, 10]

@@ -7,7 +7,7 @@ unshift - adiciona o elemento no início do array
 
   splice - adiciona o elemento no meio do array, esse possui 3 propriedades:
 
-  1 - qual posição queremo adicionar esse elemento
+  1 - qual posição queremos adicionar esse elemento
 
   2 - Se queremos deletar alguma posição 
 
@@ -28,8 +28,6 @@ includes - Nos mostra  através de um valor booleano se existe tal valor dentro 
 pop - ele armazena o último valor do array dentro de uma variável,se você dar um console.log verá que o último elemento desse array anterior terá sido removido
 
 shift - faz a mesma coisa que o pop,mas se refere a primeira posição
-
-splice - remove a posição,podemos escolher qual posição ele quer apagar
 
 join - coloca algo entre os valores,por exemplo podemos por um - entre os valores, ao invés de um array ficar [0,1,2] ele ficaria [0-1-2]. Para isso precisamos armazenar o método join dentro de uma variável
 

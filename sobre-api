@@ -1,0 +1,9 @@
+API
+Definição básica: É um mini sistema que você faz para acessar um sistema maior.
+
+Analogia: É um garçom, você não entra na cozinha e pede a comida ao chef. Você pede ao garçom e pega a comida e te entrega.
+
+Definição formal:
+API é um conjunto de rotinas e padrões de programação (ou seja, um mini software) para acesso a um aplicativo de software ou plataforma baseada na Web. A sigla API refere-se ao termo em inglês "Application Programming Interface".
+
+Exemplo: Quero desenvolver recursos para Facebook. Preciso de determinados dados. Não posso utilizar o sistema integrado. Utilizo uma API, ou seja, um mini software que acessa o sistema integrado do Facebook e retorna os dados que eu preciso.

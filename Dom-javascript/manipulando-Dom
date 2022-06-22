@@ -1,0 +1,198 @@
+Códigos para manipular o Dom (Document Object Model)
+
+oque é DOM - É uma API do navegador que interage com o HTML.
+
+métodos para seleção de elementos:
+
+getElementByid
+getElementByClassName
+getElementByTagName
+querySelector
+querySelectorAll
+
+
+métodos para manipular conteúdo:
+
+textContent - altera o conteúdo do elemento
+
+innerText - altera o conteúdo interno do texto
+
+innerHTML - funciona como o innerText,a diferença é que com esse método podemos aplicar tags html
+
+Value - Altera o valor de um input
+
+
+
+
+métodos para manipular atributos html:
+
+setAttribute - Podemos utilizar para aplicar um atributo a um elemento html,um id a um header por exemplo
+
+getAttribute - Podemos utilizar para pegar um atributo html,se queremos pegar uma classe por exemplo
+
+removeAttribute - Remove o atributo
+
+
+
+
+métodos para estilo:
+
+style - altera o css em linha do elemento 
+
+classList - altera o css através das classes,os métodos mais utilizados são add,remove e toggle
+
+
+
+
+
+métodos para navegação:
+
+parentNode e parentElement - Busca o pai do elemento
+
+childNodes - busca todos os filhos do elemento
+
+children - ele vai buscar os filhos mas não os espaços vazios
+
+firstElementChild - busca o primeiro elemento filho
+
+firstElementChild - busca o primeiro elemento filho,não busca espaços vazios
+
+obs: o mesmo se aplica para o lastChild e lastElement child 
+
+nextSibling - busca o próximo irmão do elemento
+
+NextElementSibling - busca o próximo irmão do elemento,não leva em consideração o espaço vazio
+
+
+obs: o mesmo se aplica para o previousSibling e previousElementSibling  mas em relação aos elementos anteriores
+
+
+
+métodos para criar elementos:
+
+createElement - Cria elementos
+
+append - significa que algo será adicionado depois,por exemplo,se eu ponho para adicionar um h1 depois de uma div
+
+prepend - significa que algo será adicionado antes,por exemplo,se eu ponho para adicionar uma div antes de um elemento body,antes de todas os outros elementos esse será adicionado
+
+insertBefore - insere um elemento entre outros,seus argumentos são primeiro o elemento novo a ser colocado e qual elemento referência 
+
+
+
+
+Eventos do DOM
+
+onabort
+Este evento se produz quando um usuário detém a carga de uma imagem, seja porque detém a carga da página ou porque realiza uma ação que a detém, como por exemplo, sair da página.
+Javascript 1.1
+
+onblur
+Desata-se um evento onblur quando um elemento perde o foco da aplicação. O foco da aplicação é o lugar onde está situado o cursor, por exemplo, pode estar situado sobre um campo de texto, uma página, um botão ou qualquer outro elemento.
+Javascript 1.0
+ 
+onchange
+Desata-se este evento quando muda o estado de um elemento de formulário, às vezes não se produz até que o usuário retire o foco da aplicação do elemento. Javascript 1.0
+Javascript 1.0
+
+onclick
+Produz-se quando se clica o botão do mouse sobre um elemento da página, geralmente um botão ou um link.
+Javascript 1.0
+
+ondragdrop
+Produz-se quando um usuário solta algo que havia arrastado sobre a página web.
+Javascript 1.2
+
+onerror
+Produz-se quando não se pode carregar um documento ou uma imagem e esta fica quebrada.
+Javascript 1.1
+
+onfocus
+O evento onfocus é o contrário de onblur. Produz-se quando um elemento da página ou a janela ganham o foco da aplicação.
+Javascript 1.0
+
+onkeydown
+Este evento é produzido no instante que um usuário pressiona uma tecla, independentemente que a solte ou não. É produzido no momento do clique.
+Javascript 1.2
+
+onkeypress
+Ocorre um evento onkeypress quando o usuário deixa uma tecla clicada por um tempo determinado. Antes deste evento se produz um onkeydown no momento que se clica a tecla..
+Javascript 1.2
+
+onkeyup
+Produz-se quando o usuário deixa de apertar uma tecla. É produzido no momento que se libera a tecla.
+Javascript 1.2
+
+onload
+Este evento se desata quando a página, ou em Javascript 1.1 as imagens, terminaram de se carregar.
+Javascript 1.0
+
+onmousedown
+Produz-se o evento onmousedown quando o usuário clica sobre um elemento da página. onmousedown se produz no momento de clicar o botão, soltando ou não.
+Javascript 1.2
+
+onmousemove
+Produz-se quando o mouse se move pela página.
+Javascript 1.2
+ 
+onmouseout
+Desata-se um evento onmuoseout quando a seta do mouse sai da área ocupada por um elemento da página.
+Javascript 1.1
+
+onmouseover
+Este evento desata-se quando a seta do mouse entra na área ocupada por um elemento da página.
+Javascript 1.0
+
+onmouseup
+Este evento se produz no momento que o usuário solta o botão do mouse, que previamente havia clicado.
+Javascript 1.2
+
+onmove
+Evento que se executa quando se move a janela do navegador, ou um frame.
+Javascript 1.2
+
+onresize
+Evento que se produz quando se redimensiona a janela do navegador, ou o frame, no caso de que a página os tenha.
+Javascript 1.2
+
+onreset
+Este evento está associado aos formulários e se desata no momento que um usuário clica no botão de reset de um formulário.
+Javascript 1.1
+
+onselect
+Executa-se quando um usuário realiza uma seleção de um elemento de um formulário.
+Javascript 1.0
+
+onsubmit
+Ocorre quando o visitante aperta sobre o botão de enviar o formulário. Executa-se antes do envio propriamente dito.
+Javascript 1.0
+
+onunload
+Ao abandonar uma página, seja porque se clique em um link que nos leva a outra página ou porque se fecha a janela do navegador, se executa o evento onunload.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

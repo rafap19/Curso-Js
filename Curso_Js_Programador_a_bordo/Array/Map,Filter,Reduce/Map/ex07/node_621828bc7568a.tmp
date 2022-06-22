@@ -1,0 +1,6 @@
+const lanches = ['Pizza','Hamburguer','Cachorro Quente']
+
+for(lanche of lanches){
+    lanches.push('Açaí')
+    console.log(lanche)
+}
