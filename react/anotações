@@ -1,0 +1,19 @@
+React Js
+
+Criado pelo facebook
+
+Roda js no servidor e retorna página pronta
+
+baseado em js ES6
+
+baseado em componentes,isso é cada item em uma página é um componente,por exemplo uma logo,além disso podemos ter vários componentes menores dentro de um maior.
+
+linguagem declarativa - isso é, ao invés de criar um for completo utilizamos o map para realizar a mesma tarefa,utilizamos essa linguagem declarativa por boas práticas.
+
+
+fluxo de dados unidirecional - os dados fluem em uma direção,flui-se do componente pai para filho
+
+obs: o componente filho não consegue alterar uma informação do componente pai,somente consegue ler esta informação.Caso o componente filho precise alterar a informação do componente pai ele precisa chamar um método do componente pai para fazer esta alteração,quando o componente pai altera a informação isso se reflete no componente filho automáticamente.
+
+tudo é javascript no React,utilizamos o JSX que nos possibilita escrever HTML junto de javascript.
+
