@@ -1,0 +1,13 @@
+PROMISES
+
+- Promises são como promessas da vida real, ela está esperando algum retorno;
+
+- Para criar uma promessa instanciamos a classe Promise;
+
+- Que leva dois argumentos: resolve(solução) e reject (erro);
+
+- Para encadear mais processos utilizamos o método then;
+
+- Alguns recursos de JS(Fetch API) e bibliotecas retornam Promises;
+
+
