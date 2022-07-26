@@ -1,0 +1,15 @@
+JSON(javascript object notation)
+
+- é um formato de representação de dados,basicamente é uma forma de escrever um objeto javascript mas que pode ser interpretada por outras linguagem,além de ser transportada via texto;
+
+- Mais simples que XML, que é utilizado para fins parecidos;
+
+- Utiliza o formato de chave e valor;
+
+- É leve para ser enviado para requisições
+
+- Muito utilizado para API e também arquivos de configuração
+
+- aceita diversos tipos de dado como strings,números,arrays objetos e dados nulos como null
+
+para que funcione como objeto é necessário seguir tal sintaxe entre os dados chave e valor: {"exemplo" :  "exemplo"}
