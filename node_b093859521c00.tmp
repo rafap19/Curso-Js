@@ -1,0 +1,12 @@
+let v = -2
+let item = 1
+
+
+while(item < 5){
+    v +=item;
+    if(v >=4);
+}
+item++;
+
+console.log(item)
+

@@ -17,3 +17,24 @@ obs: o componente filho não consegue alterar uma informação do componente pai
 
 tudo é javascript no React,utilizamos o JSX que nos possibilita escrever HTML junto de javascript.
 
+
+CRIANDO UM APP 
+
+primeiro projeto em react js
+
+comando para criar - npx create-react-app + nome do projeto, ex npx create-react-app my-first-app
+
+obs: temos que ter o nodejs instalado,não podemos criar um nome com letras maiúsculas
+
+após instalar,escrever os dois comandos em sequência no terminal: cd + nome do seu projeto, npm start
+
+ex: cd my-first-app
+    npm start(inicia nossa aplicação na web)
+
+    seu primeiro app foi criado
+
+
+Estrutura de Pastas
+
+
+

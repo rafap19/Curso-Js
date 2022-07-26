@@ -7,3 +7,96 @@ Definição formal:
 API é um conjunto de rotinas e padrões de programação (ou seja, um mini software) para acesso a um aplicativo de software ou plataforma baseada na Web. A sigla API refere-se ao termo em inglês "Application Programming Interface".
 
 Exemplo: Quero desenvolver recursos para Facebook. Preciso de determinados dados. Não posso utilizar o sistema integrado. Utilizo uma API, ou seja, um mini software que acessa o sistema integrado do Facebook e retorna os dados que eu preciso.
+
+
+- simplifica desenvolvimento,não necessita de telas;
+
+- Fácil integração com sistemas,apenas dando resposwtas;
+
+- Padrão de desenvolvimento,permitindo a troca de APIS;
+
+- Performance por causa das requisições e respostas rápidas;
+
+- Exemplo prático: cotação de frete;
+
+Tipos de API
+
+Pública - disponibilizada para qualquer um acessar,sem necessidade de autenticação;
+
+Privada - Quando uma API é criada para utilização entre sistemas de uma empresa,requer autenticação;
+
+API de terceiros: quando a API é um produto,podendo ser integrada em um sistema,requer autenticação.
+
+Comunicação com API
+
+- Normalmente feita através de JSON ou XML devido a simplicidade destes tipos de dado;
+
+- As requisições e respostas são feitas através do HTTP,onde podemos seguir um padrão,para criação de APIS robustas e que serão de fácil utilização;
+
+
+Verbos do HTTP
+
+- Alterando os verbos podemos realizar requisições diferentes,simplificando a construção da nossa API e seus endpoints;
+
+GET - verbo para resgatar algum recurso;
+
+POST - Com o POST queremos enviar dados a API;
+
+DELETE - Neste queremos remover algum registro do banco
+
+PUT - Atualização de registros;
+
+PATCH - Atualização parcial de registros
+
+
+
+oque é endpoint?
+
+- Endpoint é a URL que acessamos da API para extrair uma resposta;
+
+- exemplo: /users/1 - GET
+
+- Obviamente é também acompanhado do domínio da API;
+
+- Mesmos endpoints com verbos diferentes podem ter resultados diferentes.
+
+- Esta é uma das técnicas para reduzir a complexidade e aplicar o padrão REST
+
+
+Oque é REST?
+
+- Rest é um padrão/conceito de arquitetura ligado a APis e o protocolo HTTP.
+
+- Podemos implementar este padrão,que é composto de 6 partes para tornar nossa API em Restful;
+
+- eles são: Uniformidade,Desacoplação,Stateless,Cache,Arquitetura de Camadas,Code on demand;
+
+
+Uniformidade: todas as requisições para o mesmo endpoint, devem receber a mesma resposta, independente de onde vieram;
+
+
+Desacoplação: A API deve ser independente de um client, não pode interagir com a aplicação, apenas retornar respostas,baseadas na requisição;
+
+
+Stateless: as requisições não tem state, ou seja, cada uma é única e essa responsabilidade de sessão é dada a aplicação que a consulta;
+
+
+Cache: Quando possível as respostas devem ser cacheadas, melhorando a performance;
+
+
+Arquitetura de camadas: A arquitetura da API pode ser composta por camadas, fazendo com que um componente não possa acessar um superior, sem passar pelo intermediário;
+
+
+Code on demand (opicional): Em alguns casos pode haver código que precisa ser executado para rodar (Java applets), nestes casos o código deve rodar por demanda;
+
+Conhecendo o Postman(programa para teste de api)
+
+Postman é um serviço muito utilizado quando o assunto é API
+
+É um client que podemos utilizar para testar a nossa API de uma forma bem intuitiva, construindo o projeto dentro do programa
+
+Escolhendo qual método vai para qual endpoint, mudando o corpo da requisição
+
+Permite verificar a resposta e o status, enfim é super completo
+
+
