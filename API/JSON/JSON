@@ -13,3 +13,6 @@ JSON(javascript object notation)
 - aceita diversos tipos de dado como strings,números,arrays objetos e dados nulos como null
 
 para que funcione como objeto é necessário seguir tal sintaxe entre os dados chave e valor: {"exemplo" :  "exemplo"}
+
+
+

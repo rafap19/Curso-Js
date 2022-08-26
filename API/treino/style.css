@@ -1,0 +1,28 @@
+
+section{
+    text-align: center;
+}
+
+ul{
+    margin: auto;
+    color: rgba(240, 248, 255, 0.869);
+    width: 50%;
+    background-color: rgb(55, 60, 82);
+    border-radius: 7px;
+    padding: 1.4rem;
+}
+
+.x:hover{
+    color: rgb(130, 14, 14);
+    cursor: pointer;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
